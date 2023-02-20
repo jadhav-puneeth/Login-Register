@@ -1,0 +1,55 @@
+html,body{
+  /* background:  rgba(244, 91, 105,1); */
+  background-color: #212529;
+}
+.loginform{
+  margin: auto;
+  margin-top: 125px;
+  width: 400px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgba(247, 245, 245, 0.744), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  
+}
+.Registerform{
+  margin: auto;
+  justify-content: center;
+  width: 400px;
+  border: 1px solid #dddfe2;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 6px 8px rgba(247, 245, 245, 0.744), 0 8px 16px rgb(0 0 0 / 10%);
+  margin-top: 100px;
+  text-align: center;
+}
+.loginform>input{
+    border-radius: 8px;
+    border: 3px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+  }
+  
+  .Registerform>input{
+    border-radius: 8px;
+    border: 3px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    padding: 0.35rem 0.75rem;
+  margin: 0.5rem 0;
+  width: 92%;
+  font-size: 1rem;
+}
+
+.usertable{
+  margin: auto;
+  width: 600px;
+}
