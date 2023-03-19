@@ -48,7 +48,7 @@ export default function Login(props){
                 <br></br>
                 
                 <div>
-                <span>Not a user? <a href="" onClick={props.changetoggle} style={{textDecoration:"none"}}>Register</a></span>
+                <span>Not a user? <a href="/" onClick={props.changetoggle} style={{textDecoration:"none"}}>Register</a></span>
                 <br></br>
                 <a href="/" onClick={props.getUser}> getUsers </a>
                 </div>

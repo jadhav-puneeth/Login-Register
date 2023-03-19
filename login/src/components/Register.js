@@ -64,7 +64,7 @@ export default function Register(props){
                 <input  type="Password" placeholder="Confirm Password" value={cpass}   required  onChange={(event) => setcpass(event.target.value)} ></input>
                 <br></br>
                 <div>
-                <span  className="my-2">Already Registered <a href="" onClick={props.changetoggle} style={{textDecoration:"none"}}>Log in</a></span>
+                <span  className="my-2">Already Registered <a href="/" onClick={props.changetoggle} style={{textDecoration:"none"}}>Log in</a></span>
                 <br></br>
                 {/* <a  href="/" onClick={props.getUser}> getUsers </a>                */}
                  </div>

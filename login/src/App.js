@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Login from './components/Login';
 import Register from './components/Register';
@@ -13,7 +13,7 @@ function App() {
 
   function changetoggle(event){
     event.preventDefault();
-    settoggle(toggle=="login"?"register":"login");
+    settoggle(toggle==="login"?"register":"login");
   }
   const getUser = (event) => {
     event.preventDefault();
@@ -22,7 +22,7 @@ function App() {
         setUserDisplay(true);
     });
 }
-  if(toggle=="login"){
+  if(toggle==="login"){
     return (
     <div className='app '>
           <div className="row container-fluid">
